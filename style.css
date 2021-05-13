@@ -1,0 +1,65 @@
+h1{
+    background-color: pink;
+    color: hsl(300, 40%, 44%);
+}
+/* *{
+    border: solid;
+} */
+h2{
+    color: indigo;
+    font-size: 100;
+}
+p{
+    color: darkred;
+    font-size: 100;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.header{
+    background: mediumspringgreen;
+    display: flex;
+    justify-content: space-between;
+}
+.dis{
+    background: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.dis1{
+    background: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ 
+}
+.grid{
+   
+    background:rgb(1,111,112);
+    border:solid silver;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.item img{
+   
+    
+    border:solid silver;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 50px;
+}
+.footer{
+
+    border:solid silver;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background: grey;
+}
